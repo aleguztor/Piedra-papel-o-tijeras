@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(45, 38, 65);
+}
+.containercompleto{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+.text{
+height: 120px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: rgb(180, 139, 219);
+width: 100%;
+}
+.text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    color: rgb(255, 0, 170);
+    font-weight: bold;
+    text-transform: uppercase;
+   text-shadow: 0 2px  rgb(168, 1, 112), 0 4px  rgb(109, 0, 73), 0 6px rgb(49, 0, 33);
+}
+.text h2{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-size: 30px;
+    color: #fff;
+   
+  
+}
+.containerjuego{
+
+    display: flex;
+    flex-direction: row
+   
+}
+.containerjuego img{
+    width: 100px;
+    height: auto;
+    padding: 20px;
+}
+.containerjuego button{
+    border-radius: 50px;
+    margin: 10px;
+    transition: all 100ms ease;
+    background-color: rgb(255, 0, 170);
+    border-style: none;
+}
+.containerjuego button:hover{
+   scale: 1.1;
+   cursor: pointer;
+
+}
+.containerjuego button:active{
+   scale: 1.05;
+    box-shadow: 0 0 10px rgb(0, 0, 0) inset;
+ }
+.resultadocontainer{
+    background-color: rgba(240, 255, 255, 0);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    padding: 30px;
+   
+    
+}
+.resultado{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.persona{
+    color: white;
+}
+.resultadocontainer h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color:  rgb(255, 0, 170);
+   margin-bottom: 10px;
+   text-shadow: 0 2px  rgb(168, 1, 112), 0 4px  rgb(109, 0, 73), 0 6px rgb(49, 0, 33);
+}
+.resultado {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 0, 170);
+    font-weight: bold;
+   
+    text-shadow: 0 2px  rgb(168, 1, 112), 0 4px  rgb(109, 0, 73), 0 6px rgb(49, 0, 33);
+}
+.containerresultado h2{
+    margin-top: 10px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    color: white;
+    font-size: 35px;
+}
+
+.containerresultado button{
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+}
+.containerresultado button:hover{
+
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.visible{
+   display: block;
+}
+.novisible{
+display: none;
+}
+.containerresultado button:active{
+    scale: 1.1;
+    cursor: pointer;
+    background-color: blueviolet;
+    box-shadow: 0 0 10px rgb(0, 0, 0) inset;
+}
+
+
+#maquina{
+     width: 200px;
+        height: 200px;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    transition: all 100ms ease;
+    background-color: rgb(150, 26, 109);
+    border-style: none;
+    box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.315);
+}
+.maquina{
+    background-color: rgb(150, 26, 109);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 300;
+    font-size: 30px;
+    border-bottom-left-radius: 5px; 
+    border-bottom-right-radius: 5px;     
+    color: white;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}

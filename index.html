@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Piedra papel o tijera!</title>
+        <link rel="stylesheet" href="css/style.css" />
+        
+    </head>
+    <body>
+        <div class="containercompleto">
+
+            <!-- NAV -->
+            <div class="text">
+                <h1>Piedra, papel o tijera</h1>
+               
+            </div>
+            <!-- RESULTADO -->
+
+            <div class="resultadocontainer">
+                <h2>RESULTADO</h2>
+                <div class="resultado">
+                    <p class="persona">YO&nbsp</p>
+                <p id="resultadohumano">
+                    0
+                </p>
+                <p >&nbsp : &nbsp</p>
+                <p id="resultadocomputador">
+                    0
+                </p>
+                <p class="persona">&nbspPC</p>
+            </div>
+            </div>
+
+
+            <!-- ELECCIONES -->
+            <div class="containerjuego">
+                <button id="piedra" class="piedra"disabled>
+                    <img src="multimedia/piedra.png" alt="" />
+                </button>
+                <button id="papel" disabled>
+                    <img src="multimedia/paper.png" alt="" />
+                </button>
+                <button id="tijera" disabled>
+                    <img src="multimedia/tijera.png" alt="" />
+                </button>
+            </div>
+
+            <!-- RESULTADO -->
+            <div class="containerresultado">
+                <h2 id="solucion">BIENVENIDO! Pulsa jugar para empezar.</h2>
+                <br>
+                <button id="jugar" class="">JUGAR </button>
+                <button id="reset" class="novisible"> RESET</button>
+            </div>
+            
+              
+               <img id="maquina" src="multimedia/image_processing20200508-15150-13uv6ki.png" alt="">
+                <h2 class="maquina">MÁQUINA</h2>
+        </div>
+    </body>
+    <script src="js/app.js"></script>
+</html>
